@@ -90,7 +90,7 @@ plt.xlabel('x')
 plt.ylabel('u')
 plt.grid(True)
 plt.legend(loc="upper right")
-plt.title('1D time-dependent advection-diffusion')
+plt.title('1D space-dependent advection-diffusion')
 plt.savefig("advdiff-dirichlet.png",dpi=300,format='png',transparent=True)
 plt.show()
 
